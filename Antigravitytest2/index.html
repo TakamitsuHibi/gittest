@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrimeDrive - プレミアムカーメンテナンス予約アプリ</title>
+    <meta name="description" content="愛車のメンテナンスを、指先ひとつで。PrimeDriveは、正規ディーラーへの入庫予約をスムーズにするプレミアムオーナー向けアプリです。">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-car-side"></i> PrimeDrive
+            </a>
+            <div class="nav-links">
+                <a href="#features">機能</a>
+                <a href="#app-preview">アプリについて</a>
+                <a href="#testimonials">お客様の声</a>
+                <a href="#download" class="btn btn-primary btn-sm">ダウンロード</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="fade-in-up">愛車の輝きを、<br>指先ひとつで。</h1>
+            <p class="fade-in-up delay-1">正規ディーラーへの入庫予約から、<br>整備状況のリアルタイム確認まで。<br>あなたのカーライフを、よりスマートに、よりプレミアムに。</p>
+            <div class="hero-btns fade-in-up delay-2">
+                <a href="#" class="btn btn-primary">
+                    <i class="fa-brands fa-apple"></i> App Store
+                </a>
+                <a href="#" class="btn btn-outline">
+                    <i class="fa-brands fa-google-play"></i> Google Play
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="line"></div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="features section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="subtitle">FEATURES</span>
+                <h2>極上のオーナー体験を</h2>
+                <p>煩わしい手続きはすべてアプリにお任せください。</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card scroll-reveal">
+                    <div class="icon-box">
+                        <i class="fa-regular fa-calendar-check"></i>
+                    </div>
+                    <h3>スマート予約</h3>
+                    <p>24時間365日、いつでもどこでもディーラーの空き状況を確認し、即座に入庫予約が可能です。</p>
+                </div>
+                
+                <div class="feature-card scroll-reveal delay-1">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-list-check"></i>
+                    </div>
+                    <h3>リアルタイム進捗</h3>
+                    <p>愛車の整備状況を写真付きでリアルタイムに通知。作業の透明性を確保し、安心をお届けします。</p>
+                </div>
+                
+                <div class="feature-card scroll-reveal delay-2">
+                    <div class="icon-box">
+                        <i class="fa-regular fa-comments"></i>
+                    </div>
+                    <h3>コンシェルジュチャット</h3>
+                    <p>専任のメカニックやアドバイザーと直接チャット。気になる点や追加の要望もスムーズに伝えられます。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Preview Section -->
+    <section id="app-preview" class="app-preview section-padding">
+        <div class="container">
+            <div class="preview-layout">
+                <div class="preview-text scroll-reveal">
+                    <span class="subtitle">INTERFACE</span>
+                    <h2>洗練されたデザイン、<br>直感的な操作性</h2>
+                    <p>複雑な情報を整理し、必要な情報にすぐにアクセスできるUIデザイン。ダークモードにも完全対応し、夜間の操作も快適です。</p>
+                    <ul class="check-list">
+                        <li><i class="fa-solid fa-check"></i> 過去の整備履歴を一元管理</li>
+                        <li><i class="fa-solid fa-check"></i> 次回メンテナンス時期のリマインド</li>
+                        <li><i class="fa-solid fa-check"></i> アプリ限定のキャンペーン情報</li>
+                    </ul>
+                </div>
+                <div class="preview-visual scroll-reveal delay-1">
+                    <!-- CSS Mobile Frame Mockup -->
+                    <div class="phone-frame">
+                        <div class="phone-notch"></div>
+                        <div class="phone-screen">
+                            <div class="app-header">
+                                <div class="time">12:00</div>
+                                <div class="status-icons">
+                                    <i class="fa-solid fa-signal"></i>
+                                    <i class="fa-solid fa-wifi"></i>
+                                    <i class="fa-solid fa-battery-full"></i>
+                                </div>
+                            </div>
+                            <div class="app-content">
+                                <div class="app-nav">
+                                    <i class="fa-solid fa-bars"></i>
+                                    <span>マイガレージ</span>
+                                    <i class="fa-regular fa-bell"></i>
+                                </div>
+                                <div class="car-card">
+                                    <div class="car-status">メンテナンス推奨</div>
+                                    <div class="car-name">Mercedes-Benz S-Class</div>
+                                    <div class="car-img-placeholder">
+                                        <i class="fa-solid fa-car"></i>
+                                    </div>
+                                    <button class="book-btn">予約する</button>
+                                </div>
+                                <div class="menu-grid">
+                                    <div class="menu-item active">
+                                        <i class="fa-regular fa-calendar"></i>
+                                        <span>予約</span>
+                                    </div>
+                                    <div class="menu-item">
+                                        <i class="fa-solid fa-clock-rotate-left"></i>
+                                        <span>履歴</span>
+                                    </div>
+                                    <div class="menu-item">
+                                        <i class="fa-regular fa-message"></i>
+                                        <span>チャット</span>
+                                    </div>
+                                    <div class="menu-item">
+                                        <i class="fa-regular fa-user"></i>
+                                        <span>設定</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="download" class="cta section-padding">
+        <div class="cta-bg"></div>
+        <div class="container cta-container text-center scroll-reveal">
+            <h2>あなたのカーライフを、<br>次のステージへ。</h2>
+            <p>今すぐダウンロードして、プレミアムなメンテナンス体験を始めましょう。</p>
+            <div class="hero-btns justify-center">
+                <a href="#" class="btn btn-primary">
+                    <i class="fa-brands fa-apple"></i> App Store
+                </a>
+                <a href="#" class="btn btn-outline">
+                    <i class="fa-brands fa-google-play"></i> Google Play
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <i class="fa-solid fa-car-side"></i> PrimeDrive
+                    </a>
+                    <p>最高級のメンテナンス体験を、すべてのオーナーへ。</p>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>サービス</h4>
+                        <a href="#">機能一覧</a>
+                        <a href="#">対応車種</a>
+                        <a href="#">料金プラン</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>サポート</h4>
+                        <a href="#">よくある質問</a>
+                        <a href="#">お問い合わせ</a>
+                        <a href="#">利用規約</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>会社概要</h4>
+                        <a href="#">運営会社</a>
+                        <a href="#">プライバシーポリシー</a>
+                        <a href="#">採用情報</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom text-center">
+                <p>&copy; 2025 PrimeDrive Inc. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
